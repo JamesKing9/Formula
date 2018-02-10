@@ -34,7 +34,7 @@ public class NewsManager {
         n.setContent("Stanford beautiful girl choose!");
         
         sess.save(n);
-        		sess.save(n);
+        		
         tx.commit();
         sess.close();
         sf.close();

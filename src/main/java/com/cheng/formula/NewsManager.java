@@ -30,9 +30,8 @@ public class NewsManager {
         Transaction tx = sess.beginTransaction();
         
         News n = new News();
-        n.setTitle("疯狂Java联盟成立了");
-        n.setContent("疯狂Java联盟成立了，"
-                + "网站地址http://www.crazyit.org");
+        n.setTitle("Beautiful");
+        n.setContent("Stanford beautiful girl choose!");
         
         sess.save(n);
         		sess.save(n);

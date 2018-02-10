@@ -22,7 +22,7 @@ class News implements Serializable {
     
     @Column(name = "news_title", length = 50)
     private String title;
-    @Transient
+//    @Transient
     private String content;
 
     public Integer getId() {

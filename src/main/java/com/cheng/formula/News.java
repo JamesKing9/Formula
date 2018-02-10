@@ -20,7 +20,10 @@ class News implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     
-    @Column(name = "news_title", length = 50)
+    @Column(name = "news_title", length = 50) // custom  define the  name and length
+   
+
+
     private String title;
 //    @Transient
     private String content;
